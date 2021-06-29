@@ -40,7 +40,7 @@ class Voo(models.Model):
     idAeroporto = models.IntegerField
     data = models.CharField(max_length=100)
     horario = models.CharField(max_length=100)
-    numero = models.CharField(max_length=100)
+    numero = models.IntegerField
     origem = models.CharField(max_length=100)
     destino = models.CharField(max_length=100)
     portaoEmbarque = models.CharField(max_length=100)
